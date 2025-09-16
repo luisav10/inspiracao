@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #6D9BC3;
+    margin-bottom: 40px;
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    background-image: url(https://i.guim.co.uk/img/media/85c994d5aaa5650c29b4a7002678a68f0e786d47/0_8_2205_1323/master/2205.jpg?width=1200&quality=85&auto=format&fit=max&s=db812a965831618f15db28085bfe3875);
+    height: 100vh;
+    background-size: cover;
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: black 1px 0 10px;
+}
+header h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    text-shadow: black 1px 0 10px;
+    margin-top: 250px;
+    margin-left: 30px;
+}
+header h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 40vw;
+    margin-left: 30px;
+    margin-top: 8px;
+    text-shadow: black 1px 0 10px;
+}
+header a{
+    padding: 15px;
+    border: #5d88ad solid 2px;
+    box-shadow: 2px 2px 4px black;
+    background-color: #6D9BC3;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    width: 20vw;
+    margin-left: 30px;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+header a:hover{
+   transform: scale(1.1); 
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: white;
+    box-shadow: black 1px 0 10px;
+}
+#sobre, #chihiro{
+    border: solid 1px black;
+    width: 95vw;
+    min-height: 50vh;
+    margin-top: 100px;
+}
+ #sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    scroll-margin-top: 100px;
+}
+#sobre h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#sobre p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 85%;
+    margin-top: 20px;
+}
+#sobretextos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#filmesgeral{
+    margin-top: 90px;
+}
+#filmesgeral h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-shadow: black 1px 0 10px;
+}
+#filmes1, #filmes2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#filmes1 img{
+    width: 15vw;
+    height: 50vh;
+    margin-bottom: 20px;
+    border: white solid 2px;  
+    box-shadow: black 1px 0 10px;
+}
+#filmes2 img{
+    width: 15vw;
+    height: 50vh; 
+    border: white solid 2px;  
+    box-shadow: black 1px 0 10px;
+}
+.imgfilme img{
+    transition: transform 0.3s ease-in-out;
+}
+.imgfilme img:hover{
+    transform: scale(0.9);
+}
+#chihiro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+#chihiro:hover{
+    border: solid 1px #FFD700;
+    box-shadow: #FFD700 1px 0 10px;
+}
+#chihiro h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#chihiro p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 85%;
+    margin-top: 20px;  
+}
+#imgchihiro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+#chihiro img{
+    border-radius: 50%;
+    margin-left: px;
+    width: 250px;
+}
+#divchihiro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+#assistir h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-shadow: black 1px 0 10px;
+}
