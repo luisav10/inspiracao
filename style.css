@@ -68,7 +68,7 @@ section{
     min-height: 50vh;
     margin-top: 100px;
 }
- #sobre{
+#sobre{
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -76,12 +76,18 @@ section{
 }
 #sobre h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
 }
 #sobre p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     width: 85%;
     margin-top: 20px;
+}
+#sobre #citacao{
+    color: rgb(59, 59, 59);
+    font-size: 13px;
+    margin-bottom: 20px;
 }
 #sobretextos{
     display: flex;
